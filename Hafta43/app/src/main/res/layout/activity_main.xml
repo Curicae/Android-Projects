@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Türkiye Şehir Plaka Eşleştirme"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+            
+        <!-- Eşleştirme 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="01"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="02"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="03"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="04"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="05"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate6"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="06"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate7"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="07"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 8 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate8"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="08"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate9"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="09"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+        
+        <!-- Eşleştirme 10 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            
+            <TextView
+                android:id="@+id/plate10"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+                
+            <TextView
+                android:id="@+id/city10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Şehir"
+                android:textSize="18sp" />
+                
+            <Button
+                android:id="@+id/check10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontrol Et" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sensor</string>
+    <string name="compass_sensor">Compass Sensor</string>
+    <string name="accelerometer_sensor">Accelerometer Sensor</string>
+    <string name="light_sensor">Light Sensor</string>
+    <string name="humidity_sensor">Humidity Sensor</string>
+    <string name="sens_r_t_rleri">Sensör Türleri</string>
+    <string name="magnetometer_sensor">Magnetometer Sensor</string>
+    <string name="gyroscope_sensor">Gyroscope Sensor</string>
+    <string name="proximity_sensor">Proximity Sensor</string>
+    <string name="thermometer_sensor">Thermometer Sensor</string>
+    <string name="pressure_sensor">Pressure Sensor</string>
+    <string name="sens_r_ad">Sensör Adı</string>
+    <string name="sens_r_de_erleri_burada_g_sterilecek">Sensör değerleri burada gösterilecek</string>
+</resources>

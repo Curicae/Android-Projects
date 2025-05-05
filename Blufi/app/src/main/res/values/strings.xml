@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Blufi</string>
+    
+    <!-- Main Activity -->
+    <string name="title_main">Bluetooth WiFi Kamera</string>
+    <string name="btn_bluetooth">Bluetooth</string>
+    <string name="btn_wifi">WiFi</string>
+    <string name="btn_camera">Kamera</string>
+    
+    <!-- Bluetooth Activity -->
+    <string name="title_bluetooth">Bluetooth Yönetimi</string>
+    <string name="btn_toggle_bluetooth">Bluetooth Aç/Kapat</string>
+    <string name="btn_scan_devices">Cihazları Tara</string>
+    <string name="status_bluetooth_on">Bluetooth: Açık</string>
+    <string name="status_bluetooth_off">Bluetooth: Kapalı</string>
+    
+    <!-- WiFi Activity -->
+    <string name="title_wifi">WiFi Yönetimi</string>
+    <string name="btn_toggle_wifi">WiFi Aç/Kapat</string>
+    <string name="btn_scan_networks">Ağları Tara</string>
+    <string name="status_wifi_on">WiFi: Açık</string>
+    <string name="status_wifi_off">WiFi: Kapalı</string>
+    
+    <!-- Camera Activity -->
+    <string name="title_camera">Kamera</string>
+    <string name="btn_camera_start">Başlat</string>
+    <string name="btn_capture">Fotoğraf Çek</string>
+    <string name="btn_camera_stop">Durdur</string>
+    <string name="status_camera_on">Kamera Açık</string>
+    <string name="status_camera_off">Kamera Kapalı</string>
+    
+    <!-- General messages -->
+    <string name="permission_required">İzin gerekli</string>
+    <string name="scanning">Taranıyor...</string>
+    <string name="error_occurred">Hata oluştu</string>
+</resources>

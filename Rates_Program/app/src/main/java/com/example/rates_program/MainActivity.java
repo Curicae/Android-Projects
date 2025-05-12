@@ -35,7 +35,7 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
 
     // API anahtarı
-    private static final String API_KEY = "33a8f41b276067fd5256be96a1156eed";
+    private static final String API_KEY = "<Your_API_Key";
     // Para birimleri
     private static final String SYMBOLS = "TRY,USD,EUR,GBP,CHF";
     // Baz para birimi

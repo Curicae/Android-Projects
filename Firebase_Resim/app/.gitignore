@@ -1,0 +1,20 @@
+/build
+
+# Firebase Configuration Files - DO NOT COMMIT TO GITHUB
+google-services.json
+
+# Firebase Debug Files
+*.log
+
+# API Keys and Secrets
+*.keystore
+*.jks
+keystore.properties
+
+# Firebase Emulator Data
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Firebase Cache
+.firebase/
